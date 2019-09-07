@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>apod_dl</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Chronic" Version="0.3.2">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <PackageReference Include="CommandLineParser" Version="2.6.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+  </ItemGroup>
+</Project>
